@@ -1,0 +1,39 @@
+
+1) Explain REST
+
+-> REST is an architectural style that allows communication between computer systems separating them it's an alternative to SOAP where we no longer
+   need WSDL contracts, which means the client sends request to get resources or modify them and the server returns a response ,
+   the requests is in the form of JSON, it's main advantages are that it's stateless , client code and server code are separated and don't rely on each other
+   meaning that a problem on one side won't affect the other side, it provides abstraction where the server only gives results and isn't obligated to show his code
+   to the client also provides interoperability allowing heterogeneous systems to communicate.
+
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, number of servers, etc.)
+
+-> There's many types of architectures: 2-tiers , 3-tiers , n-tiers ... , ideally 3-tiers architecture to avoid most problems it's composed of a client , server , DB .
+   the client sends a request to the server , the server analyzes the request whether to get a resource and modify one and whether that client has permit for that resource,
+   then the server contacts the DB to extract information or modify depending on the need , then the server sends a response to the server providing the resource or information about
+   the error in case it doesn't provide the resource. The client request is transported via HTTP/S and is sent in a JSON format and the server executes SQL instructions to BD then returns a response in a JSON format.
+
+
+3) What are the best practices when deploying an application in the cloud
+
+-> choosing the type of cloud computing offer which ideally is PaaS for applications.
+   choosing a platform that allows scaling of the application as required , ideally a platform that provides manual and automatic horizontal scaling.
+   choosing a database that is scalable and located separately so that it can be scaled independently.
+   deploying the infrastructure across multiple geographies throughout the world so that it has a better availability rate.
+   choosing a platform that has CI/CD tools implemented.
+   avoiding being locked-in by a vendor to have the option to move the application to another provider or to its own data center.
+   Developing with REST-based web services to Separate the application logic from the presentation tier.
+
+
+4) What are your best strength : infra ? DB ? web ?
+Give us detail about it
+
+-> My best strength is web as I have the most experience in and I have a good understanding of the communication between client/server , the best practices for
+   developing and providing good user experience.
+
+
+5) Among all the projects you have worked on. Which architecture do you enjoy the most? explain why ?
+
+-> I enjoyed BloC slightly more than previous best MVVM while working with Flutter as it seperates entirely the business logic from the view.
